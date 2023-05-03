@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500&family=Lora&family=Playfair+Display&display=swap');
 
-.Portfolio-Colors-1-hex { color: #0085FF; }
-.Portfolio-Colors-2-hex { color: #D9D9D9; }
-.Portfolio-Colors-3-hex { color: #FFFFFF; }
-.Portfolio-Colors-4-hex { color: #040404; }
-.Portfolio-Colors-5-hex { color: #00ACEE; }
+.textBlue { color: #0085FF; }
+.greyWebsite { color: #D9D9D9; }
+.white { color: #FFFFFF; }
+.slightlyBlack { color: #040404; }
+.internetBotting { color: #00ACEE; }
 
 /* Color Theme Swatches in RGBA */
 .Portfolio-Colors-1-rgba { color: rgba(0, 133, 255, 1); }
@@ -35,62 +35,6 @@ body {
     width: 100vw;
 }
 
-#loader-wrapper .loader-section {
-    position: fixed;
-    top: 0;
-    width: 51%;
-    height: 100%;
-    background: #222222;
-    z-index: 1000;
-}
- 
-#loader-wrapper .loader-section.section-left {
-    left: 0;
-}
- 
-#loader-wrapper .loader-section.section-right {
-    right: 0;
-}
-
-#loader {
-    z-index: 1001; /* anything higher than z-index: 1000 of .loader-section */
-}
-
-.loaded #loader-wrapper .loader-section.section-left {
-    -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
-    -ms-transform: translateX(-100%);  /* IE 9 */
-    transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
-}
- 
-.loaded #loader-wrapper .loader-section.section-right {
-    -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
-    -ms-transform: translateX(100%);  /* IE 9 */
-    transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
-}
-
-.loaded #loader {
-    opacity: 0;
-    -webkit-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-}
-
-.loaded #loader-wrapper {
-    visibility: hidden;
-    -webkit-transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
-        transform: translateY(-100%);
-
-    -webkit-transition: all 0.3s 0.1s ease-out;
-        transition: all 0.3s 0.1s ease-out;
-}
-
-.loaded #loader-wrapper .loader-section.section-right,
-.loaded #loader-wrapper .loader-section.section-left {
- 
-    -webkit-transition: all 0.7s 0.3s ease-out;
-            transition: all 0.7s 0.3s ease-out;
-}
-
 nav {
     display: flex;
     flex-direction: row;
@@ -102,7 +46,7 @@ nav {
 }
 
 nav a {
-    color: #0085FF;
+    color:#0085FF;
     font-size: 3rem;
     text-decoration: none;
 }
@@ -337,32 +281,32 @@ nav ul {
 
 #galleryImage2 {
     left: 13%;
-    top: 21%;
+    top: 28%;
 }
 
 #galleryImage3 {
     left: 57%;
-    top: 21%;
+    top: 28%;
 }
 
 #galleryImage4 {
     left: 35%;
-    top: 33.5%;
+    top: 40.5%;
 }
 
 #galleryImage5 {
     left: 13%;
-    top: 46.5%;
+    top: 53.5%;
 }
 
 #galleryImage6 {
     left: 56.9%;
-    top: 46.5%;
+    top: 53.5%;
 }
 
 #galleryImage7 {
     left: 35%;
-    top: 59%;
+    top: 66%;
 }
 
 .projectRow {
@@ -383,3 +327,34 @@ nav ul {
     font-size: 1.3rem;
     color: #0085FF;
 }
+
+.body p::selection, .body h2::selection, .body h3::selection, .body h1::selection{
+    background-color: #EEEEEE;
+    color: rgb(255, 0, 0);
+}
+
+
+.portfolioWritingCont {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+}
+
+.portfolioWriting {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    color: #0085FF;
+    font-size: 1.3rem;
+    padding: 2%;
+}
+
+.portfolioWriting img {
+    margin-top: 5%;
+    width: 100%;
+}
+
+
+
+
