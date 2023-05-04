@@ -9,6 +9,7 @@
     <title>Ayden Cortez - Socials</title>
 </head>
 <header>
+    <script src="index.js"></script>
     <nav>
         <a class="aydenC navigation" href="index.html">Ayden C.</a>
         <ul>
@@ -21,29 +22,36 @@
 <body style="background-color: #EEEEEE;" class="body">
     <section class="socialsCont">
         <div class="socialRow" id="socialRow1">
-            <img src="images/Instagram_logo_2016.svg.webp" alt="" class="socialsLogo" width="345px" height="345px">
+            <a href="">
+                <img src="images/Instagram_logo_2016.svg.webp" alt="" class="socialsLogo" width="345px" height="345px">
+            </a>
             <h2>Instagram</h2>
         </div>
         <div class="socialRow" id="socialRow2">
-            <img src="images/Facebook_logo_(square).png.webp" alt="" class="socialsLogo" width="345px" height="345px">
+            <a href="">
+                <img src="images/Facebook_logo_(square).png.webp" alt="" class="socialsLogo" width="345px" height="345px">
+            </a>
             <h2>Facebook</h2>
         </div>
         <div class="socialRow" id="socialRow3">
-            <img src="images/linkedInLogo.png" alt="" class="socialsLogo" width="375px" height="345px">
+            <a href="www.linkedin.com/in/ayden-cortez">
+                <img src="images/linkedInLogo.png" alt="" class="socialsLogo" width="375px" height="345px">
+            </a>
             <h2>LinkedIn</h2>
         </div>
     </section>
     <section class="email">
         <p>The social links can be used to follow my works as well as some miscellaneous posts. If you would like to contact me, feel free to email me with the form below. I would love to hear your feedback or comments!</p>
-        <form>
-            <input type="text" title="e-mail address">
-            <input type="text" title="subject">
-            <textarea name="contactEmail" id="emailText" cols="30" rows="10"></textarea>
+        <form method="post" action="mailto:ayden.cortez@student.cart.org"  enctype="text/plain">
+            <input type="text" title="e-mail address" placeholder="E-mail address">
+            <input type="text" title="subject" placeholder="Subject">
+            <textarea name="message" id="emailText" placeholder="Message" cols="30" rows="10"></textarea>
+            <input id="submit" type="submit">
         </form>
     </section>
 </body>
 <footer>
-    
+
 </footer>
-<script src="index.js"></script>
+
 </html>
