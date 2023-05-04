@@ -45,6 +45,10 @@ nav {
     gap: 50%;
 }
 
+#indexNav > a {
+    color: #FFFFFF;
+}
+
 nav a {
     color:#0085FF;
     font-size: 3rem;
