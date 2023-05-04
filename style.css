@@ -406,3 +406,41 @@ nav ul {
     color: white;
 }
 
+.projectTitle {
+    color: #0085FF;
+    font-size: 4rem;
+    text-align: left;
+    width: 59%;
+}
+
+.projectDesc {
+    display: flex;
+    margin: 2% 0% 2% 0%;
+    width: 59%;
+    height: 40vh;
+    gap: 4%;
+}   
+
+.projectDesc > p {
+    width: 48%;
+    height: 100%;
+    font-size: 1.5rem;
+    color: #0085FF;
+}
+
+.otherProjects {
+    display: flex;
+    width: 59%;
+    height: 25vh;
+}
+
+.otherProjects > div {
+    width: 33.3%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+#other-internetBotting {
+    background: url("images/internetBots.png");
+    background-size: cover;
+}
