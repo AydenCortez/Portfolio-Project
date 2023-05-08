@@ -42,7 +42,7 @@ nav {
     width: 100vw;
     height: 5vw;
     padding: 0% 10% 0% 5%;
-    gap: 50%;
+    gap: max(50%, 7.5%);
 }
 
 #indexNav > a, #indexNav > ul a{
@@ -51,13 +51,16 @@ nav {
 
 nav a {
     color:#0085FF;
-    font-size: 3rem;
+    position: relative;
+    top: max(0px, 15px);
+    font-size: max(2.5vw, 18px);
     text-decoration: none;
 }
 
 .aydenC {
-    font-size: 3.5rem;
-
+    font-size: max(3vw, 18px);
+    width: auto;
+    top: max(0px, 15px);
 }
 
 nav ul {
@@ -420,9 +423,14 @@ nav ul {
     height: 70vh;
 }
 
+.slideshowCont div {
+    width: 60%;
+    height: 100%;
+}
 
 .slideshowCont img {
     width: 60%;
+    height: 100%;
 }
 
 .projectTitle {
