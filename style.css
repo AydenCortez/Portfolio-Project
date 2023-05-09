@@ -42,7 +42,7 @@ nav {
     width: 100vw;
     height: 5vw;
     padding: 0% 10% 0% 5%;
-    gap: max(50%, 7.5%);
+    gap: max(25px, 44vw);
 }
 
 #indexNav > a, #indexNav > ul a{
@@ -53,6 +53,7 @@ nav a {
     color:#0085FF;
     position: relative;
     top: max(0px, 15px);
+    right: max(0px,);
     font-size: max(2.5vw, 18px);
     text-decoration: none;
 }
@@ -102,7 +103,7 @@ nav ul {
 
 .titleWords {
     display: inline;
-    font-size: 15rem;
+    font-size:max(13vw, 5vw);
     color: #FFFFFF;
     font-weight: lighter;
 }
