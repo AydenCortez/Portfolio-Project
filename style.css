@@ -266,6 +266,10 @@ nav ul {
     margin-top: 5%;
 }
 
+.portfolioTitle {
+    font-size: 5rem;
+}
+
 .portfolioGalleryCont {
     position: relative;
     margin: 5% 0% 5% 0%;
@@ -543,7 +547,7 @@ nav ul {
     }
     .aboutRow1 img {
         width: 45%;
-        height: 250px;
+        height: 225px;
     }
     .aboutTitle {
         font-size: 3rem;
@@ -562,5 +566,8 @@ nav ul {
         width: 90vw;
         height: 25vh;
         margin-top: 25px;
+    }
+    .portfolioGalleryCont h2 {
+        font-size: 3rem;
     }
 } 
