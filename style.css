@@ -42,7 +42,7 @@ nav {
     width: 100vw;
     height: 5vw;
     padding: 0% 10% 0% 5%;
-    gap: max(25px, 44vw);
+    gap: 44vw;
 }
 
 #indexNav > a, #indexNav > ul a{
@@ -52,16 +52,14 @@ nav {
 nav a {
     color:#0085FF;
     position: relative;
-    top: max(0px, 15px);
-    right: max(0px,);
-    font-size: max(2.5vw, 18px);
+    right: max;
+    font-size:2.5vw;
     text-decoration: none;
 }
 
 .aydenC {
-    font-size: max(3vw, 18px);
+    font-size: 3vw, 18px;
     width: auto;
-    top: max(0px, 15px);
 }
 
 nav ul {
@@ -70,6 +68,8 @@ nav ul {
     list-style: none;
     gap: 25%;
 }
+
+  
 
 .body {
     display: flex;
@@ -103,7 +103,7 @@ nav ul {
 
 .titleWords {
     display: inline;
-    font-size:max(13vw, 5vw);
+    font-size: 13vw;
     color: #FFFFFF;
     font-weight: lighter;
 }
@@ -506,3 +506,17 @@ nav ul {
     background: url("images/futuristicBunker.jpg");
     background-size: cover;
 }
+
+@media only screen and (max-width: 360px) /*for galaxy S22+*/ {
+
+    .homePreview {
+        padding: 5% 15% 5% 15%;
+        height: 550px;
+    }
+    .homePreview h2 {
+        font-size: 2rem;
+    }
+    .homePreview ul {
+        font-size: 1rem;
+    }
+} 
