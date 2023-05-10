@@ -508,7 +508,22 @@ nav ul {
 }
 
 @media only screen and (max-width: 378px) /*for galaxy S22+*/ {
-
+    nav {
+        gap: 7vw;
+    }
+    nav ul {
+        gap: 10%;
+    }
+    nav a {
+        top: 10px;
+        font-size: 1.2rem;
+    }
+    .aydenC {
+        top: 10px;
+    }
+    .titleWords span{
+        top: 50px;
+    }
     .homePreview {
         padding: 5% 10% 5% 10%;
         height: 550px;
@@ -520,6 +535,21 @@ nav ul {
         font-size: 1rem;
     }
     .quoteCont {
+        font-size: 1rem;
+    }
+    .aboutRow1 {
+        width: 90vw;
+        margin-top: 50px;
+    }
+    .aboutRow1 img {
+        width: 45%;
+        height: 200px;
+    }
+    .aboutTitle {
+        font-size: 3rem;
+    }
+    .aboutText {
+        width: 90vw;
         font-size: 1rem;
     }
 } 
