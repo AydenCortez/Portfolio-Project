@@ -510,13 +510,16 @@ nav ul {
 @media only screen and (max-width: 378px) /*for galaxy S22+*/ {
 
     .homePreview {
-        padding: 5% 15% 5% 15%;
+        padding: 5% 10% 5% 10%;
         height: 550px;
     }
     .homePreview h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .homePreview ul {
+        font-size: 1rem;
+    }
+    .quoteCont {
         font-size: 1rem;
     }
 } 
