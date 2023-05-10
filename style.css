@@ -543,7 +543,7 @@ nav ul {
     }
     .aboutRow1 img {
         width: 45%;
-        height: 200px;
+        height: 250px;
     }
     .aboutTitle {
         font-size: 3rem;
@@ -551,5 +551,16 @@ nav ul {
     .aboutText {
         width: 90vw;
         font-size: 1rem;
+    }
+    .aboutImageCont {
+        width: 90vw;
+    }
+    .futureCont {
+        width: 90vw;
+    }
+    video {
+        width: 90vw;
+        height: 25vh;
+        margin-top: 25px;
     }
 } 
