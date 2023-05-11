@@ -293,38 +293,51 @@ nav ul {
     z-index: 2;
 }
 
-#galleryImage1 {
+.galleryImage1 {
     left: 35%;
+    width: 300px;
+    height: 300px;
 }
 
-#galleryImage2 {
+.galleryImage2 {
     left: 13%;
     top: 28%;
+    width: 300px;
+    height: 300px;
 }
 
-#galleryImage3 {
+.galleryImage3 {
     left: 57%;
     top: 28%;
+    width: 300px;
+    height: 300px;
 }
 
-#galleryImage4 {
+.galleryImage4 {
     left: 35%;
     top: 40.5%;
+    width: 300px;
+    height: 300px;
 }
 
-#galleryImage5 {
+.galleryImage5 {
     left: 13%;
     top: 53.5%;
+    width: 300px;
+    height: 300px;
 }
-
-#galleryImage6 {
+.galleryImage6 {
     left: 56.9%;
     top: 53.5%;
+    width: 300px;
+    height: 300px;
 }
 
-#galleryImage7 {
+.galleryImage7 {
     left: 35%;
     top: 66%;
+    width: 300px;
+    height: 300px;
 }
 
 .projectRow {
@@ -567,7 +580,78 @@ nav ul {
         height: 25vh;
         margin-top: 25px;
     }
-    .portfolioGalleryCont h2 {
+    .portfolioGalleryCont {
+        height: 1950px;
+        width: 90vw;
+    }
+    .portfolioTitle {
         font-size: 3rem;
     }
+    .galleryImage1 {
+        left: 5%;
+
+        /* width: 150px;
+        height: 150px; */
+    }
+    .galleryImage2 {
+        left: 5%;
+        top: 340px;
+    }
+    .galleryImage3 {
+        left: 5%;
+        top: 600px;
+    }
+    .galleryImage4 {
+        left: 5%;
+        top: 860px;
+    }
+    .galleryImage5 {
+        left: 5%;
+        top: 1120px;
+    }
+    .galleryImage6 {
+        left: 5%;
+        top: 1380px;
+    }
+    .galleryImage7 {
+        left: 5%;
+        top: 1640px;
+    }
+    .projectRow {
+        width: 90vw;
+        flex-direction: column;
+    }
+    .projectsText {
+        width: 100%;
+    }
+    .portfolioWritingCont {
+        flex-direction: column;
+        width: 90vw;
+    }
+    .portfolioWriting {
+        width: 100%;
+    }
+    .socialsCont {
+        margin-top: 25px;
+    }
+    .socialRow {
+        width: 90vw;
+        gap: 5%;
+    }
+    .socialRow a img{
+        width: 172px;
+        height: 172px;
+    }
+    .socialRow h2 {
+        font-size: 2rem;
+    }
+    .email {
+        width: 90vw;
+        align-items: center;
+    }
+    .email form {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
 } 
