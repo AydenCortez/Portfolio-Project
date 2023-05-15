@@ -6,11 +6,6 @@ getCurrentURL ()
 
 const url = getCurrentURL();
 
-
-
-console.log(url)
-
-
 if (document.URL.includes("index.html")) {
     var index;
     var nav = document.getElementsByClassName('navigation');
